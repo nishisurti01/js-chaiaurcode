@@ -18,3 +18,21 @@ console.log(booleanIsValue)
 
 // 1=> true 0=> false
 // " " => false "1"=> true 
+
+
+// --------------- Operation -----------------
+
+// Post fix 
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+// Pre fix
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
